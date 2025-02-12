@@ -1,0 +1,181 @@
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+body {
+  margin: 0;
+  background-color: #fbf0f9;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  height: 65px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.logo img {
+  width: 100px;
+  padding: 0px 0px 0px 50px;
+}
+
+.Explore {
+  display: flex;
+  font-size: 10px;
+  color: white;
+}
+
+p a {
+  color: #ffe500;
+}
+
+ul {
+  padding: 10px 0px;
+  margin: 0px -47px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+
+  padding: 20px;
+  margin: 5px 0px;
+  justify-content: center;
+  color: aliceblue;
+}
+
+nav ul :hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.418);
+  border-radius: 10px;
+  transition: ease-in 0.3s;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  height: 30px;
+  width: 501px;
+  border-radius: 3px;
+  margin: 0 60px;
+  padding: 0px 20px;
+}
+
+.container {
+  min-height: calc(100vh - 240px - 65px);
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+  height: 370px;
+  margin: auto;
+  width: 1085px;
+  padding-top: 20px;
+}
+
+.my-1 {
+  margin: 25px 0 auto;
+}
+
+.my-2 {
+  margin: 2px 0;
+  font-weight: 200;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* *************** This Main Card******************** */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 85vw;
+  margin: auto;
+  justify-content: center;
+}
+
+/* ************************ This is Card Class ******************************* */
+.cards {
+  display: flex;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 4px;
+}
+
+.text-center {
+  margin: 0;
+}
+
+.hd_title {
+  color: #878787;
+}
+.about_footer {
+  display: flex;
+  background: #172337;
+}
+
+.about {
+  color: #fbf0f9;
+}
+.A_Footer {
+  margin: 0;
+  color: #fbf0f9;
+}
+
+.about_link {
+  display: grid;
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 0px 0px 36px;
+}
+.help_link {
+  display: grid;
+  margin: 15px 0px 0px 380px;
+}
+
+.about {
+  display: flex;
+  color: rgb(22, 11, 11);
+  background-color: var(--main-bg-color);
+  height: 240px;
+  background: #172337;
+}
+
+.rights {
+  color: #fbf0f9;
+  background-color: rgb(22, 11, 11);
+  text-align: center;
+}
